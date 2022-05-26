@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+#intro {
+    padding: 80px 0px 80px 0px;
+}
+h1.Head1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+#duif {
+    width: 100%;
+    height: auto;
+}
+h2.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+.center {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+.white  {
+    background-color: white;
+}
+.cyan {
+    background-color: #3CCCC7;
+}
+.square {
+    border-radius: 10px;
+    height: 354px;
+    width: auto;
+    background-color: white;
+}
+#background2 {
+    height: 231px;
+}
+h2.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+h2.squaretitle {
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    text-align: center;
+    color: black;
+
+}
+h2.squaretext {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 111px;
+    padding-right: 111px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: center;
+    color: black;
+    
+}
+h2.werk {
+    color: black;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 56.25px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.ark    {
+    width: 100%;
+    height: auto;
+}
+
+.blue{
+    background-color: #1289A7;  
+}
+#footer1    {
+    padding: 30px 0px 30px 0px;
+}
+#footer2    {
+    padding: 22px 0px 22px 0px;
+}
+#footer3    {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.black  {
+    background-color: black;
+}
+#footer4{
+    padding: 22px 0px 22px 0px;
+}
+h2.footer{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    padding: 80px 0px 80px 0px;
+    line-height: 50px;
+}
+#meerwerk2  {
+    border-radius: 10px;
+    height: 40px;
+    width: auto;
+    background-color: #3CCCC7;
+    
+}
+#meerwerk   {
+    padding: 30px 0px 30px 0px;
+}
+h2.meerwerk {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    text-align: center;
+    padding-top: 11px;
+}
+#logo   {
+    width: 230px;
+    height: 100%;
+    padding: 15px 0px 25px 0px;
+}
+h4.balktext {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: black;
+    padding-top: 40px;
+    padding-right: 60px;
+}
+li {
+    display: inline;
+}
+ul {
+    display: block;
+}
+ul li {
+    display: inline-block;
+}
+a {
+    color: black;
+}
+#port   {
+    text-align: center;
+}
+#Fab  {
+    text-align: center;
+}
+#am   {
+    text-align: center;
+}
+.footertitle    {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21.09px;
+    color: black;
+    padding-top: 10px;
+}
+.footertext {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: black;
+    
+}
+.pf {
+    padding-top: 20px;
+    color: white;
+}
+#vid {
+   width: 100%;
+   height: auto; 
+}
