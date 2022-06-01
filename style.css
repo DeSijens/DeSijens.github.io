@@ -9,7 +9,7 @@ h1.Head1 {
     font-weight: 700;
 
 }
-#duif {
+.Me {
     width: 100%;
     height: auto;
 }
@@ -38,7 +38,7 @@ h2.text {
     background-color: white;
 }
 #background2 {
-    height: 231px;
+    height: 100px;
 }
 h2.title {
     font-family: 'Roboto', sans-serif;
@@ -80,7 +80,7 @@ h2.werk {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.ark    {
+.afbeelding    {
     width: 100%;
     height: auto;
 }
@@ -161,8 +161,12 @@ a {
 #port   {
     text-align: center;
 }
-#Fab  {
+h2.Fab  {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
 }
 #am   {
     text-align: center;
@@ -191,3 +195,27 @@ a {
    width: 100%;
    height: auto; 
 }
+#fotoab {
+    padding-bottom: 54px;
+}
+
+/* PC */
+@media screen and (max-width: 1920px) {
+    .afbeelding {
+      margin-bottom: 20px;
+    }
+    
+  }
+
+/* Tablet */
+@media screen and (max-width: 1200px) {
+    .afbeelding {
+      margin-bottom: 40px;
+    }
+    .pf {
+        padding-top: 40px;
+        color: white;
+    }
+
+  }
+  
