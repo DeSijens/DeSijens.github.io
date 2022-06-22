@@ -52,7 +52,7 @@ h1.Head1 {
 }
 h2.text {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     color: white;
 }
@@ -305,5 +305,21 @@ h2.Fab  {
 
 }
 
+/* Tiny phone */
+@media screen and (max-width: 390px) {
+
+    h1.Head1{
+        font-size: 32px;
+    }
+    .Me {
+        padding-top: 20px;
+    }
+    #fotoab {
+        padding-bottom: 10px;
+    }
+    #am {
+        padding: 10px 0px 10px 0px;
+    }
+ }
 
 
