@@ -45,19 +45,23 @@
                 </div>
             </div>
         </div>
-        <div class="hamburger"></div>
+        <div class="hamburger" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
     </section>
 
     <section id="intro" class="cyan">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h1 class="Head1"> Hallo, Welkom <br> op mijn website </h1>
 
                     <h2 class="text">Mijn naam is Jillert Sijens, ik ben 18Jaar <br>
                         en dit is mijn portfolio website</h2>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
                     <img class="Me" alt="Foto van mij" src="img/Me.jpeg" />
                 </div>
             </div>
@@ -77,21 +81,21 @@
     <section id="skills2" class="cyan">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div class="square">
                         <h2 class="squaretitle"> Graphic Design </h2>
                         <h2 class="squaretext"> Photoshop <br><br> Illustrator <br><br> Indesign </h2>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div class="square">
                         <h2 class="squaretitle"> Video Editing </h2>
                         <h2 class="squaretext"> Davinci Resolve <br><br> Premiere Pro </h2>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div class="square">
                         <h2 class="squaretitle"> Animatie </h2>
                         <h2 class="squaretext"> After Effects </h2>
@@ -125,13 +129,13 @@
     <section id="ontwerp" class="white">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                     <img class="afbeelding" src="img/ark.jpg" />
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                     <img class="afbeelding" src="img/pokemon.png" />
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <img class="afbeelding" src="img/trike.jpg" />
                 </div>
             </div>
@@ -141,16 +145,14 @@
     <section id="meerwerk" class="white">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-4 col-sm-4">
+                <div class="col-lg-5 col-md-4 col-sm-4 col-xs-4">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-4">
-                    <div id="meerwerk2">
-                        <h2 class="meerwerk">
-                            <a href="Portfolio.html">Meer Werk</a>
-                        </h2>
-                    </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+                    <a href="Portfolio.html" class="meerwerk" id="meerwerk2">
+                        Meer Werk
+                    </a>
                 </div>
-                <div class="col-lg-5 col-md-4 col-sm-4">
+                <div class="col-lg-5 col-md-4 col-sm-4 col-xs-4">
                 </div>
             </div>
         </div>
@@ -203,6 +205,11 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="custom.js"></script>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
 
 </body>
 
