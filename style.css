@@ -278,7 +278,7 @@ h2.Fab  {
         height: 210px;
     }
     #intro  {
-        padding: 80px 0px 10px 0px;
+        padding: 40px 0px 40px 0px;
     }
     h2.werk {
         padding-top: 30px;
@@ -302,6 +302,15 @@ h2.Fab  {
     h2.squaretext {
         font-size: 16px;
     }
+    h2.text {
+        font-size: 18px;
+    }
+    .Me {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
 }
 
@@ -310,9 +319,11 @@ h2.Fab  {
 
     h1.Head1{
         font-size: 32px;
+        padding-bottom: 0px;
     }
     .Me {
         padding-top: 20px;
+        text-align: center;
     }
     #fotoab {
         padding-bottom: 10px;
