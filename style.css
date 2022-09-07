@@ -286,15 +286,27 @@ h2.Fab  {
     }
     .Me {
         margin-bottom: 20px;
+        padding-top: 0px;
     }
     h4.balktext {
         padding-top: 15px;
         padding-bottom: 15px;
+    
+    }
+    h1.Head1 {
+        text-align: center;
+    }
+    h2.text {
+        text-align: center;
+        font-size: 24px;
+    }
+    h2.Fab {
+        font-size: 28px;
     }
   }
 
   /* Small phone */
-@media screen and (max-width: 700px) { 
+@media screen and (max-width: 767px) { 
     
     h2.squaretitle {
         font-size: 20px;
@@ -303,13 +315,15 @@ h2.Fab  {
         font-size: 16px;
     }
     h2.text {
-        font-size: 18px;
+        font-size: 20px;
     }
     .Me {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        scale: 70%;
     }
+    
 
 
 }
@@ -331,6 +345,8 @@ h2.Fab  {
     #am {
         padding: 10px 0px 10px 0px;
     }
+    
  }
+
 
 
